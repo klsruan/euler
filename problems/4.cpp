@@ -16,12 +16,9 @@ int main() {
     for (int i = 100; i < 1000; i++) {
         for (int j = 100; j < 1000; j++) {
             int k = i * j;
-            int r = reverseNumber(i * j);
-            if (r == k) {
-                if (k > major) {
-                    major = k;
-                }
-            }
+            int r = reverseNumber(k);
+            if (r == k && r > major)
+                major = r;
         }
     }
     cout << major << endl;
