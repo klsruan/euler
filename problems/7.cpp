@@ -5,7 +5,7 @@
 using namespace std;
 using VINT = vector<int>;
 
-// https://www.baeldung.com/cs/prime-number-algorithms#:~:text=Most%20algorithms%20for%20finding%20prime,test%20or%20Miller%2DRabin%20method.
+// https://www.baeldung.com/cs/prime-number-algorithms#sieve-of-eratosthenes
 // Sieve of Eratosthenes
 VINT primeNumber(int n) {
     VINT A, B;
